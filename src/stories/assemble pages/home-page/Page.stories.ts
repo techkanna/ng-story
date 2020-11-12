@@ -3,11 +3,11 @@ import { CommonModule } from '@angular/common';
 // also exported from '@storybook/react' if you can deal with breaking changes in 6.1
 import { Story, Meta } from '@storybook/angular/types-6-0';
 
-import Button from './button.component';
-import Header from './header.component';
+import Button from '../../components/button/button.component';
+import Header from '../../combine components/header/header.component';
 import Page from './page.component';
 
-import * as HeaderStories from './Header.stories';
+import * as HeaderStories from '../../combine components/header/Header.stories';
 
 export default {
   title: 'Assemble Pages/Page',

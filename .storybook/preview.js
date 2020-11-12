@@ -6,4 +6,9 @@ setCompodocJson(docJson);
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
+  options: {
+    storySort: {
+      order: ['Intro', 'Components', 'Combine Components', 'Assemble pages'],
+    },
+  },
 }
