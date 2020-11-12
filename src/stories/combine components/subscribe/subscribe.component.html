@@ -1,0 +1,11 @@
+<div class="subscribe">
+  <p *ngIf="subscribed">Subscribe to our newsletter</p>
+  <storybook-input size="medium" label="Email Address"></storybook-input>
+  <storybook-button
+    primary="true"
+    size="small"
+    (click)="onClickMe()"
+    [label]="subscribed ? 'Subscribe' : 'Subscribed'"
+  ></storybook-button>
+  <p *ngIf="!subscribed">Thanks for the subscription :)</p>
+</div>
