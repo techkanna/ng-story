@@ -4,7 +4,9 @@ import { CommonModule } from '@angular/common';
 import { Story, Meta } from '@storybook/angular/types-6-0';
 
 import Button from '../../components/button/button.component';
+import Input from '../../components/input/input.component';
 import Header from '../../combine components/header/header.component';
+import Subscribe from '../../combine components/subscribe/subscribe.component';
 import Page from './page.component';
 
 import * as HeaderStories from '../../combine components/header/Header.stories';
@@ -14,7 +16,7 @@ export default {
   component: Header,
   decorators: [
     moduleMetadata({
-      declarations: [Button, Header],
+      declarations: [Button, Header, Subscribe, Input],
       imports: [CommonModule],
     }),
   ],
