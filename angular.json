@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "ng-story"
+  "defaultProject": "ng-story",
+  "cli": {
+    "analytics": "7589bbb9-373e-43fa-b6af-7fe406b486f1"
+  }
 }
